@@ -3,7 +3,7 @@ const app = express();
 const PORT = process.env.PORT || 3000;
 
 app.get('/status', (req, res) => {
-    res.json({ message: "API is running!" });
+    res.json({ message: "API is running! and this is the change one" });
 });
 
 app.listen(PORT, () => {
